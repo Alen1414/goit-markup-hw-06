@@ -620,10 +620,13 @@ padding-right: 93px;
 
 }
 .box-third{
-position: relative;
-
-display: flex;
 margin-left: auto;
+}
+
+.icon-fly{
+ position: relative; 
+ /* left: 13px;
+ bottom: 0; */
 }
 
 .fallow-text{
@@ -679,10 +682,12 @@ border-radius: 4px;
 }
 .icon-fallow{
   position: absolute;
- /* top: 13px; */
-  /* right: 13px; */
-  bottom: 13px;
-  left: ;
+  top: 13px;
+  right: 13px;
+  
+  transform:translateY(-50%) ;
+  display: inline-block;
+  
 }
 
 
@@ -945,8 +950,11 @@ color: rgba(117, 117, 117, 0.5);
 
 }
  .check-label{
-  display: block;
+  display:flex;
+  align-self: center;
+  justify-content: center;
  
+ margin-bottom: 30px;
   padding-left: 9px;
 
 font-style: normal;
@@ -972,6 +980,7 @@ border: solid #141313;
 .checkbox:checked +.check-label >.icon-chek {
   background: #2196F3;
   border:  none;
+  
   }
 
   .visually-hidden {
