@@ -680,7 +680,16 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border:none;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-fallow:focus,
+.btn-fallow:hover {
+    color: var(--white-color-text);
+    background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
 .icon-fallow{
   position: absolute;
   top: 13px;
@@ -1011,28 +1020,14 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: none;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-form:focus,
+.btn-form:hover {
+    color: var(--white-color-text);
+    background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-/* .check-label::before {
-  content: "";
-  
-display: block;
-width: 16px;
-height: 15px;
-margin-right: 54px;
 
-background: #141313;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 2px;
-} */
-
-/* .checkbox:checked +.check-label::before {
-  background: #2196F3;
-  bottom: none;
-  background-image: url(../images/Vector\ .svg);
-  background-repeat: no-repeat
-  background-size:cover;
-  background-position:center;
-
-} */ 
 
