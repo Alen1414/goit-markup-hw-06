@@ -973,24 +973,23 @@ font-size: 14px;
 line-height: 1.71;
 color: #757575;
 }
-.icon-chek{
-/* display: flex;
-align-self: center;
-justify-content: center; */
-display: block;
 
+.icon-chek{
+display: block;
 
 width: 16px;
 height: 15px;
 border-radius: 2px;
 margin-right: 7px;
 
+
 border: solid #141313;
-}
+} 
+
+
 .checkbox:checked +.check-label >.icon-chek {
   background: #2196F3;
   border:  none;
-  
   }
 
   .visually-hidden {
