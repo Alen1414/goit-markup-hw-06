@@ -666,7 +666,8 @@ color: rgba(255, 255, 255, 0.6);
   color: rgba(255, 255, 255, 0.6);
 }
 .btn-fallow{
-
+  
+padding: 10px 62px 10px 29px;
 width: 200px;
 height: 50px;
 font-style: normal;
@@ -692,9 +693,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .icon-fallow{
   position: absolute;
+  display: block;
   top: 13px;
-  right: 13px;
-  
+  right: 33px;
+ 
   transform:translateY(-50%) ;
   display: inline-block;
   
@@ -1013,7 +1015,10 @@ transition: fill  cubic-bezier(0.4, 0, 0.2, 1) ;
   justify-content: center;
   align-items: center;
   }
+  .icon-chek:focus{
+    border: 2px solid #141313;
 
+}
   .visually-hidden {
     position: absolute;
     width: 1px;
@@ -1026,6 +1031,7 @@ transition: fill  cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .btn-form{
   display: block;
+  padding: 10px 55px 10px 56px;
   margin: 0 auto;
 font-style: normal;
 font-weight: bold;
