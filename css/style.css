@@ -928,9 +928,19 @@ border-radius: 4px;
 transition: border cubic-bezier(0.4, 0, 0.2, 1) ;
 
 }
-.modal-form-input:focus{
+/* .modal-form-input :focus{
 border: 1px solid #2196F3;
 }
+.modal-form-icon:hover{
+ fill:   #2196F3; 
+} */
+.modal-form-input:hover:focus + .modal-form-icon{
+  fill:   #2196F3;  
+}
+.modal-form-input:hover:focus{
+  border: 1px solid #2196F3; 
+} 
+
 .modal-form-field{
   margin-bottom: 28px;
 }
@@ -942,11 +952,8 @@ border: 1px solid #2196F3;
   top: 50%;
   transform: translateY(-50%);
   color: #212121;
-  transition: fill  cubic-bezier(0.4, 0, 0.2, 1) ;
+  /* transition: fill  cubic-bezier(0.4, 0, 0.2, 1) ; */
 
-}
-.modal-form-icon:hover{
-  fill: #2196F3;
 }
 .input-wrap{
   display: block;
