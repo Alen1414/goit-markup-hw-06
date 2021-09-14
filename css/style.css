@@ -928,12 +928,7 @@ border-radius: 4px;
 transition: border cubic-bezier(0.4, 0, 0.2, 1) ;
 
 }
-/* .modal-form-input :focus{
-border: 1px solid #2196F3;
-}
-.modal-form-icon:hover{
- fill:   #2196F3; 
-} */
+
 .modal-form-input:hover:focus + .modal-form-icon{
   fill:   #2196F3;  
 }
@@ -982,7 +977,7 @@ color: rgba(117, 117, 117, 0.5);
 }
  .check-label{
   display:flex;
-  align-self: center;
+  align-items: center;
   justify-content: center;
  
  margin-bottom: 30px;
@@ -999,13 +994,15 @@ color: #757575;
   color:  #188CE8;
 }
 .icon-chek{
-display: block;
+display: flex;
+justify-content: center;
+align-items: center;
 
 width: 16px;
 height: 15px;
 border-radius: 2px;
 margin-right: 7px;
-border: solid #141313;
+border: 2px solid #141313;
 transition: fill  cubic-bezier(0.4, 0, 0.2, 1) ;
 } 
 
